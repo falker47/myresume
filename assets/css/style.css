@@ -214,10 +214,6 @@ h6 {
   cursor: pointer;
 }
 
-.mobile-nav-toggle:hover{
-  color: #3c76e1;
-}
-
 .mobile-nav-active {
   overflow: hidden;
 }
