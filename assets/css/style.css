@@ -16,7 +16,7 @@ a:hover {
   text-decoration: none;
 }
 
-.text-lighter{
+.text-lighter {
   color: white;
   font-size: medium;
   display: flex;
@@ -35,7 +35,7 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top { 
+.back-to-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -297,10 +297,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
-}
-
-.section-bg {
-  background: #f5f8fd;
+  background: rgb(247, 245, 255);
 }
 
 .section-title {
@@ -334,9 +331,6 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about {
-  background: whitesmoke;
-}
 
 .about .content h3 {
   font-weight: 700;
@@ -424,10 +418,6 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills {
-  background: whitesmoke;
-}
-
 .ds-heading {
   display: inline-block;
   font-weight: 700;
@@ -460,7 +450,7 @@ section {
   border-radius: 0;
 }
 
-.languages{
+.languages {
   display: flex;
   justify-content: center;
   font-size: 18px;
@@ -468,10 +458,10 @@ section {
   margin-right: 15px;
 }
 
-.lang-container{
+.lang-container {
   display: flex;
   justify-content: center;
-  
+
 }
 
 .skills .progress .skill {
@@ -534,11 +524,8 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume {
-  background: whitesmoke;
-}
 
-.download-resume-box{
+.download-resume-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -953,12 +940,15 @@ section {
 
 .contact {
   padding-bottom: 130px;
-  background: whitesmoke;
+}
+
+.info{
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .contact .info {
-  padding: 30px;
-  background: whitesmoke;
+  background-color: white;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -1020,16 +1010,16 @@ section {
   color: #fff;
 }
 
-.address{
+.address {
   margin-top: 20px;
 }
 
 
-
-.contact .info .linkedin:hover i,
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .github:hover i,
+.linkedin:hover i,
+.email:hover i,
+.address:hover i,
+.phone:hover i {
   background: #149ddd;
   color: #fff;
 }
