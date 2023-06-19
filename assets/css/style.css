@@ -527,7 +527,7 @@ section {
 
 .download-resume-box {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   margin-bottom: 20px;
 }
@@ -550,6 +550,10 @@ section {
 .ds-button:hover {
   background-color: #588aee;
   color: #FFF;
+}
+
+.date-certificate{
+margin-right: 10px;
 }
 
 .resume .resume-title {
@@ -942,7 +946,7 @@ section {
   padding-bottom: 130px;
 }
 
-.info{
+.info {
   padding-left: 30px;
   padding-right: 30px;
 }
